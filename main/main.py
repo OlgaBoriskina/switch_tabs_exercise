@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
-import test
-import authorization
+import test_switch_tabs.test as test
+import authorization.authorization as authorization
 import unittest
 
 base_url = "http://way2automation.com/way2auto_jquery"
